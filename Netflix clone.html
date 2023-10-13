@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #111;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header img {
+            width: 150px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://image.tmdb.org/t/p/w1000_and_h563_face/kBQnv5UlOeYznPPFkb6gIvF0vcU.jpg');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .hero-content {
+            width: 40%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .hero-content h1 {
+            font-size: 48px;
+        }
+        .hero-content p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="https://media.idownloadblog.com/wp-content/uploads/2018/01/Netflix-Logo.png" alt="Netflix Logo">
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+        </div>
+    </div>
+</body>
+</html>
